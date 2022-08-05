@@ -29,11 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-![My Solution](screenshot.png)
+![My Solution](images/screenshot-preview.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/prettyBcoding/Interactive-Rating
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
