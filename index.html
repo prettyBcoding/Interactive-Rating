@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="public/css/main.css">
+
+</head>
+<body>
+  <main class="selected">
+    <!-- Rating state start -->
+
+    <figure class="star" style="margin:0;">
+      <img src="images/icon-star.svg" alt="An icon star.">
+    </figure>
+
+    <h1 class="selected">How did we do?</h1>
+
+    <p class="selected">Please let us know how we did with your support request. All feedback is appreciated
+    to help us improve our offering!</p>
+
+    <div class="rating">
+      <span class="rating-numbers">1</span>
+      <span class="rating-numbers">2</span>
+      <span class="rating-numbers">3</span>
+      <span class="rating-numbers">4</span>
+      <span class="rating-numbers">5</span>
+    </div>
+
+    <button type="submit" name="button">SUBMIT</button>
+
+    <!-- Rating state end -->
+
+  </main>
+
+  <!-- Thank you state start -->
+  <div class="main hidden">
+
+    <figure class="imgThankYou hidden">
+      <img src="images/illustration-thank-you.svg" alt="">
+    </figure>
+
+    <p class="thankyou hidden">You selected <span class="ratingNumber">0</span> out of 5</p>
+
+    <h1 class="titleThankYou hidden">Thank you!</h1>
+
+    <p class="descThankYou hidden">We appreciate you taking the time to give a rating. If you ever need more support,
+    don’t hesitate to get in touch!</p>
+
+  </div>
+  <!-- Thank you state end -->
+
+
+  <!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer> -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+  background-color: #121417;
+  font-family: 'Overpass', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #252d37;
+  border-radius: 1.5rem;
+  max-width: 22rem;
+  padding: 1.5rem;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+p {
+  color: 	#959eac;
+  font-size: 15px;
+}
+
+button {
+  background-color: 	#fb7413;
+  border: none;
+  border-radius: 50px;
+  color: #ffff;
+  letter-spacing: 0.1rem;
+  margin: 1.5rem 0 1rem;
+  padding: 0.7rem 0;
+  cursor:pointer;
+  width: 21rem;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #fb7413;
+}
+
+.star img {
+  background-color: #303843;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.rating {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 1.75rem;
+}
+
+.rating-numbers {
+  background-color:	#303843;
+  border-radius: 50%;
+  color: 	#959eac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+}
+
+.rating-numbers:hover {
+  background-color:	#7c8798;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: #fb7413;
+  color: #ffffff;
+}
+
+.main {
+  background-color: #252d37;
+  border-radius: 1.5rem;
+  display: grid;
+  place-items: center;
+  max-width: 22rem;
+  padding: 1.5rem;
+}
+
+.thankyou {
+  background-color: #303843;
+  color: #fb7413;
+  border-radius: 50px;
+  width: 45%;
+}
+
+.titleThankYou {
+  margin: 1rem auto 0.7rem;
+}
+
+.descThankYou{
+  margin: 0;
+  text-align: center;
+  width: 97%;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
